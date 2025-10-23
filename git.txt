@@ -1,0 +1,69 @@
+git
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git
+$ git init
+Initialized empty Git repository in D:/Python Full-Stack OT/git/.git/
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git add .
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.py
+
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.py
+
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git add .
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.py
+
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git commit -m "first git"
+[master (root-commit) 76be4b8] first git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git.py
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git config --global user.email "annanunugb3@gmail.com"
+
+ANNA SARAPHIN M@Phenix-25 MINGW64 /d/Python Full-Stack OT/git (master)
+$ git config --global user.name "anna saraphin m"
