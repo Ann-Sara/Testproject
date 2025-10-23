@@ -7,3 +7,5 @@ while i<=10:
 print("hello world")
 print("this is a git test file")
 print("end")
+    print("looping")
+print("done")
