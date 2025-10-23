@@ -1,0 +1,2 @@
+print("love")
+print("peace")
